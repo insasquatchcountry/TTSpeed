@@ -9,8 +9,6 @@ First, you'll have to download the repository. Then, you'll need to double click
 
 # step two
 
-![Screen Shot 2019-05-29 at 12 22 22 AM](https://user-images.githubusercontent.com/8946291/58537927-dc2df900-81a8-11e9-966a-fc39e04b9705.png)
-
 Change directory (`cd`) to where the shell script is stored with `cd Downloads/TTSpeed-master`,
 
 grant tts5000.sh permission to run with `chmod u+x tts5000.sh`,
@@ -52,6 +50,8 @@ execute the following command for the changes to ~/.bash_profile to take effect.
     say Your installation of TTS 5000 is Complete
     cd
     #enjoy :D
+
+![Screen Shot 2019-05-29 at 2 04 17 PM](https://user-images.githubusercontent.com/8946291/58591401-0cae7b00-821b-11e9-976f-02d05355e5cf.png)
 
 # usage
 
