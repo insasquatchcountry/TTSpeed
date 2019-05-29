@@ -28,7 +28,7 @@ From there it's just a matter of running these commands from terminal.
 
 **step four**
 
-Simple run tts5000.sh followed by your desired value
+Simply run tts5000.sh followed by your desired value
 
     Jamess-MacBook-Air:~ james$ tts 450
     (
