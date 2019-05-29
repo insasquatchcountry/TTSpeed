@@ -1,6 +1,8 @@
 # TTSpeed
 Increase macOS text-to-speech beyond what the slider under 'System Preferences -> Accessibility' allows
 
+**To be honest I just barely know enough to have cobbled this together, but it works!**
+
 **step one**
 
 First, grant tts5000.sh permission to run, and then copy it into /usr/local/bin.
@@ -18,7 +20,7 @@ Edit ~/.bash_profile and add the following lines:
 
 **step three**
 
-execute the following command-line to for change to take
+execute the following command-line to for changes to take
 
     $ source ~/.bash_profile
 
@@ -35,7 +37,7 @@ Run these commands in this order
 
 or
 
-    $ tts 500 && ttspeed && rstts
+    $ tts 500 && ttspeed && rstts    #I don't know why but if you don't confirm ttspeed it sometimes doesn't take
 
 Shoulders of Giants:
 https://apple.stackexchange.com/a/333291
