@@ -31,13 +31,13 @@ From there it's just a matter of running these commands from terminal.
 Run these commands in this order
 
     $ ttspeed    #checks current value of speed variable
-    $ tts 500    #runs tts5000.sh with a variable of 500
+    $ tts 450    #runs tts5000.sh with a variable of 450
     $ ttspeed    #checks to confirm value has been set
     $ rstts      #restarts the speech sythesiser 
 
 or
 
-    $ tts 500 && ttspeed && rstts    #I don't know why but if you don't confirm ttspeed it sometimes doesn't take
+    $ tts 450 && ttspeed && rstts    #I don't know why but if you don't confirm ttspeed it sometimes doesn't take
 
 Shoulders of Giants:
 
