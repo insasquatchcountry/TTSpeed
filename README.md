@@ -32,8 +32,28 @@ copy and paste the following lines, save, and quit TextEdit.
 execute the following command for the changes to ~/.bash_profile to take effect.
 
     source ~/.bash_profile
+    
+# alternate steps 1-4 
+**this does everything above from the command line (just copy & paste it into terminal)**
 
-# step five
+    cd ~/Downloads
+    curl -JLO https://github.com/insasquatchcountry/TTSpeed/archive/master.zip
+    unzip TTSpeed-master.zip
+    cd TTSpeed-master
+    chmod u+x tts5000.sh
+    cp tts5000.sh /usr/local/bin
+    echo "alias tts='tts5000.sh'" >> ~/.bash_profile
+    echo "alias ttspeed='defaults read com.apple.speech.voice.prefs VoiceRateDataArray'" >> ~/.bash_profile
+    echo "alias rstts='killall com.apple.speech.speechsynthesisd && killall SpeechSynthesisServer'" >> ~/.bash_profile
+    source ~/.bash_profile
+    cd ~/Downloads
+    rm -rf TTSpeed-master.zip
+    rm -rf TTSpeed-master
+    say Your installation of TTS 5000 is Complete
+    cd
+    #enjoy :D
+
+# step six
 
 Now simply run tts5000.sh followed by your desired value
 
