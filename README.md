@@ -28,10 +28,30 @@ From there it's just a matter of running these commands from terminal.
 
 **step four**
 
-Simple run tts5000.sh followed by your desirced value
+Simple run tts5000.sh followed by your desired value
 
-    tts 450
-
+    Jamess-MacBook-Air:~ james$ tts 450
+    (
+            (
+            1835364215,
+            202,
+            450
+        ),
+            (
+            1886745202,
+            184844483,
+            450
+        ),
+            (
+            1835364215,
+            201,
+            450
+        )
+    )
+    Congratulations! Your Text-To-Speech speed has been successfully changed to 450!
+    Jamess-MacBook-Air:~ james$ 
+    
+    
 Shoulders of Giants:
 
 https://groups.google.com/forum/#!msg/macvisionaries/HOR7NWxsDQA/15E4M_6zqLUJ
