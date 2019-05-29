@@ -5,10 +5,23 @@ Increase macOS text-to-speech beyond what the slider under 'System Preferences -
 
 **step one**
 
-First, grant tts5000.sh permission to run, and then copy it into /usr/local/bin.
-    
-    chmod u+x tts5000.sh  
-    cp tts5000.sh /usr/local/bin
+First, you'll have to download the repository.
+
+![Screen Shot 2019-05-29 at 12 11 33 AM](https://user-images.githubusercontent.com/8946291/58537154-29a96680-81a7-11e9-971e-2c86525f980c.png)
+
+Then, you'll need to double click the archive to unzip it.
+ 
+open Terminal.app,
+
+![Screen Shot 2019-05-29 at 12 22 22 AM](https://user-images.githubusercontent.com/8946291/58537927-dc2df900-81a8-11e9-966a-fc39e04b9705.png)
+
+
+
+
+    cd Downloads/TTSpeed-master  #change directory to where our script is stored
+    chmod u+x tts5000.sh         #grant tts5000.sh permission to run
+    cp tts5000.sh /usr/local/bin #copy it into /usr/local/bin.
+
 
 **step two**
 
