@@ -53,7 +53,7 @@ execute the following command for the changes to ~/.bash_profile to take effect.
     cd
     #enjoy :D
 
-# step six
+# usage
 
 Now simply run tts5000.sh followed by your desired value
 
