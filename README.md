@@ -1,22 +1,22 @@
 # TTSpeed
 Increase macOS text-to-speech beyond what the slider under 'System Preferences -> Accessibility' allows
 
-**step one
+**step one**
 
-grant tts5000.sh permission to run the copy it into /usr/local/bin
+First, grant tts5000.sh permission to run, and then copy it into /usr/local/bin.
     
-    chmod u+x tts5000.sh    #will grant only the owner of that file execution permissions 
+    chmod u+x tts5000.sh  
     cp tts5000.sh /usr/local/bin
 
-**step two
+**step two**
 
-edit ~/.bash_profile and add the following lines:
+Edit ~/.bash_profile and add the following lines:
 
     alias tts='tts5000.sh'
     alias ttspeed='defaults read com.apple.speech.voice.prefs VoiceRateDataArray'
     alias rstts='killall com.apple.speech.speechsynthesisd && killall SpeechSynthesisServer'
 
-**step three
+**step three**
 
 execute the following command-line to for change to take
 
@@ -24,11 +24,14 @@ execute the following command-line to for change to take
 
 From there it's just a matter of running these commands from terminal.
 
-**examples**
+**step four**
 
-    $ tts 500    #run tts5000 with variable 250
-    $ ttspeed    #check to confirm value
-    $ rstts      #restart the speech sythesiser 
+Run these commands in this order
+
+    $ ttspeed    #checks current value of speed variable
+    $ tts 500    #runs tts5000.sh with a variable of 500
+    $ ttspeed    #checks to confirm value has been set
+    $ rstts      #restarts the speech sythesiser 
 
 or
 
