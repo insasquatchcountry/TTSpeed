@@ -22,22 +22,15 @@ Edit ~/.bash_profile and add the following lines:
 
 execute the following command-line to for changes to take
 
-    $ source ~/.bash_profile
+    source ~/.bash_profile
 
 From there it's just a matter of running these commands from terminal.
 
 **step four**
 
-Run these commands in this order
+Simple run tts5000.sh followed by your desirced value
 
-    $ ttspeed    #checks current value of speed variable
-    $ tts 450    #runs tts5000.sh with a variable of 450
-    $ ttspeed    #checks to confirm value has been set
-    $ rstts      #restarts the speech sythesiser 
-
-or
-
-    $ tts 450 && ttspeed && rstts    #I don't know why but if you don't confirm ttspeed it sometimes doesn't take
+    tts 450
 
 Shoulders of Giants:
 
