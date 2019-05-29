@@ -3,27 +3,21 @@ Increase macOS text-to-speech beyond what the slider under 'System Preferences -
 
 **To be honest I just barely know enough to have cobbled this together, but it works!**
 
-**step one**
+# step one
 
-First, you'll have to download the repository.
+First, you'll have to download the repository. Then, you'll need to double click the archive to unzip it. Now, open the Terminal app located in Applications -> Utilities -> Terminal or simply press `Command + space` to launch Spotlight and type "Terminal" `Enter`
 
-![Screen Shot 2019-05-29 at 12 11 33 AM](https://user-images.githubusercontent.com/8946291/58537154-29a96680-81a7-11e9-971e-2c86525f980c.png)
-
-Then, you'll need to double click the archive to unzip it.
- 
-open Terminal.app,
+# step two
 
 ![Screen Shot 2019-05-29 at 12 22 22 AM](https://user-images.githubusercontent.com/8946291/58537927-dc2df900-81a8-11e9-966a-fc39e04b9705.png)
 
+change directory (`cd`) to where our script is stored with `cd Downloads/TTSpeed-master`
 
+grant tts5000.sh permission to run with `chmod u+x tts5000.sh` 
 
+and copy it into /usr/local/bin with `cp tts5000.sh /usr/local/bin` 
 
-    cd Downloads/TTSpeed-master  #change directory to where our script is stored
-    chmod u+x tts5000.sh         #grant tts5000.sh permission to run
-    cp tts5000.sh /usr/local/bin #copy it into /usr/local/bin.
-
-
-**step two**
+# step three
 
 Edit ~/.bash_profile and add the following lines:
 
@@ -31,7 +25,7 @@ Edit ~/.bash_profile and add the following lines:
     alias ttspeed='defaults read com.apple.speech.voice.prefs VoiceRateDataArray'
     alias rstts='killall com.apple.speech.speechsynthesisd && killall SpeechSynthesisServer'
 
-**step three**
+# step four
 
 execute the following command-line to for changes to take
 
@@ -39,7 +33,7 @@ execute the following command-line to for changes to take
 
 From there it's just a matter of running these commands from terminal.
 
-**step four**
+# step five
 
 Simply run tts5000.sh followed by your desired value
 
@@ -65,7 +59,7 @@ Simply run tts5000.sh followed by your desired value
     Jamess-MacBook-Air:~ james$ 
     
     
-Shoulders of Giants:
+# Shoulders of Giants:
 
 https://groups.google.com/forum/#!msg/macvisionaries/HOR7NWxsDQA/15E4M_6zqLUJ
 
