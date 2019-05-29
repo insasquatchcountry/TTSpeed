@@ -19,7 +19,9 @@ and copy it into /usr/local/bin with `cp tts5000.sh /usr/local/bin`
 
 # step three
 
-Edit ~/.bash_profile and add the following lines:
+Edit ~/.bash_profile in TextEdit with `open -a TextEdit  ~/.bash_profile`
+
+copy and paste the following lines, save, and quit TextEdit.
 
     alias tts='tts5000.sh'
     alias ttspeed='defaults read com.apple.speech.voice.prefs VoiceRateDataArray'
@@ -27,15 +29,13 @@ Edit ~/.bash_profile and add the following lines:
 
 # step four
 
-execute the following command-line to for changes to take
+execute the following command for the changes to ~/.bash_profile to take effect.
 
     source ~/.bash_profile
 
-From there it's just a matter of running these commands from terminal.
-
 # step five
 
-Simply run tts5000.sh followed by your desired value
+Now simply run tts5000.sh followed by your desired value
 
     Jamess-MacBook-Air:~ james$ tts 450
     (
