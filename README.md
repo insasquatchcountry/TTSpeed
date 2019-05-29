@@ -11,11 +11,11 @@ First, you'll have to download the repository. Then, you'll need to double click
 
 ![Screen Shot 2019-05-29 at 12 22 22 AM](https://user-images.githubusercontent.com/8946291/58537927-dc2df900-81a8-11e9-966a-fc39e04b9705.png)
 
-change directory (`cd`) to where our script is stored with `cd Downloads/TTSpeed-master`
+Change directory (`cd`) to where the shell script is stored with `cd Downloads/TTSpeed-master`,
 
-grant tts5000.sh permission to run with `chmod u+x tts5000.sh` 
+grant tts5000.sh permission to run with `chmod u+x tts5000.sh`,
 
-and copy it into /usr/local/bin with `cp tts5000.sh /usr/local/bin` 
+and copy it into /usr/local/bin with `cp tts5000.sh /usr/local/bin`.
 
 # step three
 
