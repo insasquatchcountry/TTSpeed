@@ -1,3 +1,5 @@
+
+!! The update to Catalina and subsequent move to zsh has broken my script !!
 # TTSpeed
 Increase macOS text-to-speech beyond what the slider under 'System Preferences -> Accessibility' allows
 
