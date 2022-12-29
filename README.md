@@ -1,5 +1,17 @@
+```
+ _  _    __        ___    ____  _   _ ___ _   _  ____     _  _ 
+| || |   \ \      / / \  |  _ \| \ | |_ _| \ | |/ ___|   | || |
+| || |    \ \ /\ / / _ \ | |_) |  \| || ||  \| | |  _    | || |
+|_||_|     \ V  V / ___ \|  _ <| |\  || || |\  | |_| |   |_||_|
+(_)(_)      \_/\_/_/   \_\_| \_\_| \_|___|_| \_|\____|   (_)(_)
+```
 
-!! The update to Catalina and subsequent move to zsh has broken my script !!
+!! The update to Montere has made this workaround totally unnecceary. !!
+
+!! This repo now exists for purely eductaional purposes and my own bragging rights !!
+
+<del>!! The update to Catalina and subsequent move to zsh has broken my script !!</del>
+
 # TTSpeed
 Increase macOS text-to-speech beyond what the slider under 'System Preferences -> Accessibility' allows
 
