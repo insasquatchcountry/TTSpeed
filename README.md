@@ -65,7 +65,10 @@ execute the following command for the changes to ~/.bash_profile to take effect.
     cd
     #enjoy :D
 
-![Screen Shot 2019-05-29 at 2 04 17 PM](https://user-images.githubusercontent.com/8946291/58591401-0cae7b00-821b-11e9-976f-02d05355e5cf.png)
+
+![example](https://github.com/user-attachments/assets/0459ad5a-0ec6-47ec-bbbb-84362de545c5)
+
+
 
 # usage
 
